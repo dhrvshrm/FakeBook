@@ -1,7 +1,8 @@
+import { Group, RssFeed } from "@material-ui/icons";
 import "./sidebar.css";
-import { RssFeed, Group } from "@material-ui/icons";
 // import { Users } from "../../dummyData";
 // import CloseFriend from "../closeFriend/CloseFriend";
+import React from "react";
 
 export default function Sidebar() {
   return (

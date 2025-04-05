@@ -1,8 +1,8 @@
-import "./topbar.css";
 import { Search } from "@material-ui/icons";
-import { Link, Redirect } from "react-router-dom";
-import { useContext } from "react";
+import { default as React, useContext } from "react";
+import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
+import "./topbar.css";
 
 export default function Topbar() {
   const { user } = useContext(AuthContext);

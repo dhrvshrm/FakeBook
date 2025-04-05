@@ -14,15 +14,13 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
     "timeago-react": "^3.0.6",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts --max-http-header-size=1024 start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +40,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8800/api"
+  "proxy": "http://localhost:8800/api",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.5"
+  }
 }

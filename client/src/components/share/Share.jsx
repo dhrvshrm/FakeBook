@@ -3,6 +3,7 @@ import { PermMedia, Cancel } from "@material-ui/icons";
 import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import axios from "axios";
+import React from "react";
 
 export default function Share() {
   const { user } = useContext(AuthContext);

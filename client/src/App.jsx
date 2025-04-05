@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
+import React from "react";
 
 function App() {
   const { user } = useContext(AuthContext);

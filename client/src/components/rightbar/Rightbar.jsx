@@ -1,11 +1,9 @@
-import "./rightbar.css";
-import { Users } from "../../dummyData";
-import Online from "../online/Online";
-import { useContext, useEffect, useState } from "react";
+import { Add, Remove } from "@material-ui/icons";
 import axios from "axios";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
-import { Add, Remove } from "@material-ui/icons";
+import "./rightbar.css";
 
 export default function Rightbar({ user }) {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
